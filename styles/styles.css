@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.hero{
+    background-color: gray;
+    padding: 10px;
+}
+
+.hero_header{
+    text-decoration: none;
+display: flex;
+justify-content: space-between;
+padding: 2px;
+padding-bottom: 0;
+color: black;
+}
+
+.hero_header .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.header_right .menu{
+    font-family: 'Bebas Neue', cursive;
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+    gap: 2rem;
+    letter-spacing: 2px;
+}
+
+.hero_main {
+    display: flex;
+    background-color: black;
+}
+
+.hero_main > div {
+    flex: 1;
+    color: azure;
+}
+
+.hero_text {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.hero_text h2 {
+    font-size: 10rem;
+    line-height: 0.8;
+}
+
+.hero_text h4 {
+    font-size: 2rem;
+    line-height: 0.8;
+}
+
+.hero_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+.hero_image img {
+    max-width: 100%;
+}
+
+
+footer{
+    font-family: 'Bebas Neue', cursive;
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    margin: 10px;
+}
+
+/*nosotros*/
+
+main {
+    padding: 20px;
+    /*max-height: 100%;*/
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.hero_pages {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    justify-items: end;
+}
+
+.hero_textos1 {
+
+    color: white;
+    align-items: right;
+    width: 600px;
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+.nos_imagen1 {
+    width: 110%;
+    margin-right: 0px;
+    size: 100px;
+}
+
+.hero_textos2 {
+    order: 2;
+    align-items: center;
+    color: white;
+    width: 600px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.nos_imagen2 {
+    order: 1;
+    width: 100%;
+    margin-right: 10px;
+    size: 150px;
+    margin-top: 0px;
+}
+
+/*productos*/
+
+.tarjetitas {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+
+}
+
+.tarjetita {
+    background-color: gray;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita_imagen {
+    max-width: 100%;
+}
+
+/*contacto*/
+
+.form {
+    display: flex;
+}
+
+.input {
+    flex-grow: 1;
+    padding: .8rem;
+    border: 0;
+}
+
+.sumbit {
+    padding-inline: 1rem;
+    border: 0;
+    border-radius: 0;
+    background-color: grey;
+    color: azure;
+    transition: .3s;
+}
+}
+
+/*media*/
+
+@media screen and (max-width: 700px) {
+
+    .hero_text h2 {
+        font-size: 65px;
+        line-height: 0.5;
+    }
+
+    .hero_pages {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_textos1 {
+        color: white;
+        text-align: center;
+        width: 600px;
+        font-size: 34px;
+        margin-right: 0;
+    }
+
+    .nos_imagen1 {
+        max-width: 100%;
+    
+
+    }
+
+    .nos_imagen2 {
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+    .hero_textos2 {
+        color: white;
+        text-align: center;
+        width: 600px;
+        font-size: 34px;
+        margin-right: 0;
+    }
+
+    footer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .hero_text h2 {
+        font-size: 65px;
+        line-height: 0.5;
+    }
+
+    .hero_pages {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_textos1 {
+        color: white;
+        text-align: center;
+        width: 600px;
+        font-size: 34px;
+        margin-right: 0;
+    }
+
+    .nos_imagen1 {
+        max-width: 100%;
+    
+
+    }
+
+    .nos_imagen2 {
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+    .hero_textos2 {
+        color: white;
+        text-align: center;
+        width: 600px;
+        font-size: 34px;
+        margin-right: 0;
+    }
+
+    footer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
