@@ -514,3 +514,13 @@ main {
         text-align: left;
     }
 }
+
+/*TRANSFORMS*/
+
+.tarjetitas {
+    transition: all 1s;
+}
+
+.tarjetita:hover {
+    transform: scale(1.1); translateY (-40px)
+}
