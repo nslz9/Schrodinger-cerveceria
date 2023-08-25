@@ -41,10 +41,10 @@ color: black;
     grid-template-rows: auto;
     grid-gap: 10px;
     place-items: center;
-    min-height: 100vh; /* Usa min-height para asegurar que el contenedor se expanda según el contenido */
+    min-height: 100vh; 
     text-align: center;
     background-color: black;
-    padding-bottom: 60px; /* Ajusta según el tamaño de tu footer */
+    padding-bottom: 60px; 
   }
   
   .hero_text {
@@ -174,7 +174,7 @@ main {
 
 .tarjetitas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 40px;
     gap: 30px;
 
@@ -190,7 +190,7 @@ main {
 }
 
 .informacion {
-    padding: 0 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
 }
 
 .tarjetita_imagen {
@@ -348,6 +348,13 @@ main {
 
 /*media*/
 
+@media screen and (max-width: 320px) {
+    
+    .grillas {
+        transform: scale(0.6);
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .grillas {
@@ -355,6 +362,8 @@ main {
         flex-direction: column;
         padding-inline: 1rem;
         padding-top: 3rem;
+        
+
     }
 
     .grid_item {
@@ -363,6 +372,14 @@ main {
 
     .grid_item1 {
         padding-bottom: 5rem;
+    }
+
+    .grid_item h5 {
+        font-size: 2rem;
+    }
+    
+    .grid_item h4 {
+        font-size: 3rem;
     }
 
 }
