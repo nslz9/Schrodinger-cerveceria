@@ -319,22 +319,22 @@ main {
     font-size: 3rem;
     color: #e9e9e9;
   }
-  .grillas {
+  * .grillas {
     display: flex;
     flex-direction: column;
     padding-inline: 1rem;
     padding-top: 3rem;
   }
-  .grillas .grid_item {
+  * .grillas .grid_item {
     flex: 1;
   }
-  .grillas .grid_item1 {
+  * .grillas .grid_item1 {
     padding-bottom: 5rem;
   }
-  .grillas h5 {
+  * .grillas h5 {
     font-size: 2rem;
   }
-  .grillas h4 {
+  * .grillas h4 {
     font-size: 3rem;
   }
 }
