@@ -1,0 +1,26 @@
+.hero_header {
+    background-color: gray;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    padding-bottom: 0;
+    color: black;
+
+    .hero_header .logo {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8rem;
+        display: flex;
+        letter-spacing: 1px;
+    }
+}
+
+.header_right .menu {
+    font-family: $fontBebas;
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+    gap: 2rem;
+    letter-spacing: 2px;
+}

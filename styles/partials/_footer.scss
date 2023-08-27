@@ -1,0 +1,15 @@
+footer {
+    font-family: $fontBebas;
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+}

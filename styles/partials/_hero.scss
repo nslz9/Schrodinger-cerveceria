@@ -1,0 +1,36 @@
+.hero_main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 60px;
+
+    .hero_text {
+        font-family: $fontBebas;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            font-size: 10rem;
+            color: $mainColor;
+        
+        }
+
+        h4 {
+            font-size: 3rem;
+            color: $mainColor;
+        
+        }
+    }
+
+    .hero_image {
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+}

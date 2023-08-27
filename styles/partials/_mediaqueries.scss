@@ -1,0 +1,176 @@
+@media screen and (max-width: 320px) {
+    .grillas {
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .hero_main {
+        h2 {
+            font-size: 6rem;
+            color: $mainColor;
+        
+        }
+
+        h4 {
+            font-size: 3rem;
+            color: $mainColor;
+        
+        }
+    }
+
+    .grillas {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        padding-top: 3rem;
+
+        .grid_item {
+            flex: 1;
+        }
+
+        .grid_item1 {
+            padding-bottom: 5rem;
+        }
+
+        h5 {
+            font-size: 2rem;
+        }
+
+        h4 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+   
+    .hero_main {
+
+        h2 {
+            font-size: 6rem;
+            color: $mainColor;
+        
+        }
+
+        h4 {
+            font-size: 3rem;
+            color: $mainColor;
+        
+        }
+    }
+        
+
+    .hero_pages {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .hero_textos1 {
+            color: white;
+            text-align: center;
+            width: 600px;
+            font-size: 34px;
+            margin-right: 0;
+        }
+
+        .nos_imagen1,
+        .nos_imagen2 {
+            max-width: 100%;
+
+            &.nos_imagen2 {
+                padding-left: 10px;
+            }
+        }
+
+        .hero_textos2 {
+            color: white;
+            text-align: center;
+            width: 600px;
+            font-size: 34px;
+            margin-right: 0;
+        }
+    }
+
+    .tarjetitas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-wrapper {
+        >* {
+            padding: 2em;
+        }
+
+        .contact-info {
+
+            h4,
+            ul,
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .hero_pages {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+
+        .hero_textos1,
+        .hero_textos2,
+        .hero_textos3 {
+            color: white;
+            text-align: center;
+            width: 100%;
+            font-size: 34px;
+            margin: auto;
+        }
+
+        .nos_imagen1,
+        .nos_imagen2 {
+            max-width: 100%;
+
+            &.nos_imagen2 {
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .grillas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        .grid_item1 {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .grid_item2 {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+
+        .grid_item3 {
+            grid-area: 3 / 1 / 4 / 2;
+        }
+    }
+
+    footer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

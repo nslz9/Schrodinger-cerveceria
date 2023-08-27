@@ -1,0 +1,62 @@
+.hero_pages {
+    padding: 20px;
+    background-color: black;
+    font-family: $fontBebas;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 100%;
+    gap: 10px;
+    justify-items: end;
+
+    .hero_textos1 {
+        color: $mainColor;
+        align-items: right;
+        width: 600px;
+        font-size: 50px;
+        margin: auto;
+    }
+
+    .nos_imagen1 {
+        width: 100%;
+        margin: auto;
+        size: 100px;
+    }
+
+    .hero_textos2 {
+        order: 2;
+        align-items: center;
+        color: #e9e9e9;
+        width: 600px;
+        font-size: 40px;
+        padding: 1rem;
+        margin: auto;
+    }
+
+    .nos_imagen2 {
+        order: 1;
+        width: 100%;
+        padding: 1rem;
+        margin: auto;
+        size: 150px;
+    }
+    
+    .hero_textos3 {
+        order: 1;
+        align-items: center;
+        color: $mainColor;
+        width: 600px;
+        font-size: 40px;
+        padding: 1rem;
+        margin: auto
+    }
+    
+    .nos_imagen3 {
+        order: 2;
+        width: 100%;
+        padding: 1rem;
+        margin: auto;
+        size: 150px;
+    }
+
+}

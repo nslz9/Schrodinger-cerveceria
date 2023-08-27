@@ -1,0 +1,28 @@
+.productos-title {
+    text-align: center;
+    font-size: 3rem;
+    color: $mainColor
+}
+
+.tarjetitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    gap: 30px;
+
+    .tarjetita {
+        background-color: gray;
+        border-radius: 30px;
+        overflow: hidden;
+        gap: 10px;
+    }
+    
+    .informacion {
+        padding: 10px 20px 20px 20px;
+    }
+    
+    .tarjetita_imagen {
+        max-width: 100%;
+    }
+
+}
